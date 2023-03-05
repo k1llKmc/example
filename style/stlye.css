@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(45deg, rgb(23, 146, 105), aquamarine);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.q {
+    transition-duration: .3s;
+    margin: 20px;
+    padding: 30px;
+    background-image: linear-gradient(0deg, aquamarine, rgb(23, 146, 105));
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    display: inline-block;
+}
+.q:hover {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 2px black;
+    width: 300px;
+    height: 410px;
+}
+.qq {
+    transition-duration: .3;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.qqq {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.qqqq {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 20px 2px black;
+}
+button {
+    transition-duration: .3s;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: rgba(240, 248, 255, 0);
+    margin-top: 20px;
+    font-size: 14px ;
+    background-color: rgb(53, 210, 158);
+    box-shadow: 0px 0px 10px 2px black;
+}
+button:hover {
+    background-color: rgb(93, 212, 172);
+    box-shadow: 0px 0px 20px 2px black ;
+}
